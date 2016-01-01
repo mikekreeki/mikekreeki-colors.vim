@@ -186,3 +186,6 @@ hi! notesAtxHeading guifg=goldenrod gui=NONE
 hi! notesName guifg=#80a0ff gui=NONE
 hi! notesSingleQuoted guifg=#80a0ff gui=NONE
 hi! notesDoubleQuoted guifg=SkyBlue gui=NONE
+
+" vim-rspec
+hi! link rspecBeforeAndAfter Keyword
