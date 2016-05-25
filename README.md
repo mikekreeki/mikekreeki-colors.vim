@@ -12,5 +12,5 @@ colorscheme mikekreeki
 
 #### Screenshots
 
-![](https://www.dropbox.com/s/n29aa6k50gfldas/mikekreeki-colors-vim-javascript.png?raw=1)
+![](https://www.dropbox.com/s/j4gu7vapum1pa47/mikekreeki-colors-vim-javascript-refactoring.png?raw=1)
 ![](https://www.dropbox.com/s/gzr178aqr3k0c65/mikekreeki-colors-vim-ruby.png?raw=1)
