@@ -157,6 +157,7 @@ hi link javascriptURLUtilsProp         Normal
 hi link javascriptXHRMethod            Normal
 hi link javascriptXHRProp              Normal
 hi link javascriptDateMethod           Normal
+hi link javascriptServiceWorkerMethod  Normal
 
 " yajs.vim (exceptions)
 hi link javascriptExceptions Statement
