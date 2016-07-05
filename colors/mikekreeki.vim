@@ -247,3 +247,9 @@ hi link rspecMatchers Keyword
 hi NERDTreeOpenable guifg=#666666
 hi NERDTreeClosable guifg=#666666
 hi NERDTreeDirSlash guifg=#666666
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Tagbar
+hi link TagbarScope Statement
+hi TagbarType guifg=#444444
+hi TagbarFoldIcon guifg=#444444
