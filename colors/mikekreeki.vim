@@ -43,10 +43,12 @@ hi Title        guifg=#E6E1DC
 hi WarningMsg   guifg=#DA4938
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Diff
-hi DiffAdd    guifg=#E6E1DC guibg=#144212
-hi DiffDelete guifg=#E6E1DC guibg=#660000
-hi DiffText   gui=NONE      guifg=Red      guibg=NONE
+" Extradite
+hi diffAdded   guifg=#00FF00
+hi diffRemoved guifg=#FF0000
+hi ExtraditeLogTag guifg=#FF0000
+hi ExtraditeLogName guifg=#0000FF
+hi ExtraditeLogId guifg=#FFFF00
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Code
