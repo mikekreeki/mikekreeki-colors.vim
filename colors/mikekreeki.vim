@@ -255,3 +255,34 @@ hi NERDTreeDirSlash guifg=#666666
 hi link TagbarScope Statement
 hi TagbarType guifg=#444444
 hi TagbarFoldIcon guifg=#444444
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" vim-javascript
+hi link jsFunction Keyword
+hi link jsArrowFunction Operator
+hi link jsStorageClass Define
+hi link jsFuncBraces jsOperator
+hi link jsFuncParens jsOperator
+hi link jsParens jsOperator
+hi link jsBrackets jsOperator
+hi link jsBraces jsOperator
+hi link jsIfElseBraces jsOperator
+hi link jsObjectBraces jsOperator
+hi link jsObjectSeparator jsOperator
+hi link jsDestructuringBraces jsOperator
+hi link jsClassBraces jsOperator
+hi link jsThis Keyword
+hi link jsNull Constant
+hi link jsUndefined Constant
+hi link jsObjectKey jsObjectFuncName
+hi link jsObjectColon jsObjectKey
+hi link jsTemplateVar Normal
+hi link jsClassMethodType Keyword
+hi link jsClassDefinition Normal
+hi link jsSuper Keyword
+hi link jsGlobalObjects Normal
+hi link jsSwitchColon jsOperator
+hi link jsNoise Keyword
+hi link jsFuncArgCommas jsNoise
+hi link jsGlobalNodeObjects Normal
