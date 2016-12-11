@@ -286,3 +286,5 @@ hi link jsSwitchColon jsOperator
 hi link jsNoise Keyword
 hi link jsFuncArgCommas jsNoise
 hi link jsGlobalNodeObjects Normal
+hi link jsGlobalNodeObjects Normal
+hi link jsExportDefault Keyword
