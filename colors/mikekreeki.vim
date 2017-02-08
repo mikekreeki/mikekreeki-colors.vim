@@ -198,8 +198,9 @@ hi link javascriptComma javascriptParens
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " rspec.vim
-hi! link rspecGroupMethods Statement
-hi! link rspecMatchers Statement
+hi! link rspecGroupMethods Keyword
+hi! link rspecMatchers Keyword
+hi! link rspecMatchers Keyword
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-json
@@ -256,10 +257,16 @@ hi link TagbarScope Statement
 hi TagbarType guifg=#444444
 hi TagbarFoldIcon guifg=#444444
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Markdown
+hi link htmlH1 Keyword
+hi link mkdListItem Keyword
+hi mkdRule guifg=#666666
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-javascript
 hi link jsFunction Keyword
+hi link jsModuleBraces Operator
 hi link jsArrowFunction Operator
 hi link jsStorageClass Define
 hi link jsFuncBraces jsOperator
@@ -288,3 +295,16 @@ hi link jsFuncArgCommas jsNoise
 hi link jsGlobalNodeObjects Normal
 hi link jsGlobalNodeObjects Normal
 hi link jsExportDefault Keyword
+hi link jsTemplateBraces Keyword
+
+hi jsFlowDefinition guifg=SkyBlue
+hi jsFlowFunctionGroup guifg=SkyBlue
+hi jsFlowNoise guifg=SkyBlue
+hi jsFlowArrowArguments guifg=SkyBlue
+hi jsFlowArrow guifg=SkyBlue
+hi jsFlowArgumentDef guifg=SkyBlue
+hi jsFlowType guifg=SkyBlue
+hi jsFlowTypeCustom guifg=SkyBlue
+hi jsFlowReturnMaybe guifg=SkyBlue
+hi jsFlowReturnGroup guifg=SkyBlue
+hi link jsFlowImportType Keyword
