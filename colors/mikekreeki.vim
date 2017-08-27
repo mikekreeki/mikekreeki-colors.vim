@@ -87,10 +87,10 @@ hi railsMethod guifg=#DA4938 gui=NONE
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Popup Menu
-hi Pmenu      guifg=#F6F3E8 guibg=#444444 gui=NONE
-hi PmenuSel   guifg=#000000 guibg=#A5C160 gui=NONE
-hi PMenuSbar  guibg=#5A647E gui=NONE
-hi PMenuThumb guibg=#AAAAAA gui=NONE
+hi Pmenu      guifg=#F6F3E8 guibg=#444444
+hi PmenuSel   guifg=#FFFFFF guibg=steelblue
+hi PMenuSbar  guibg=#5A647E
+hi PMenuThumb guibg=#AAAAAA
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " yajs.vim (imports)
@@ -296,6 +296,12 @@ hi link jsGlobalNodeObjects Normal
 hi link jsGlobalNodeObjects Normal
 hi link jsExportDefault Keyword
 hi link jsTemplateBraces Keyword
+hi link jsTryCatchBraces Keyword
+hi link jsFinallyBraces Keyword
+hi link jsSwitchBraces Keyword
+hi link jsRepeatBraces Keyword
+hi link jsBuiltins Normal
+hi link jsDecoratorFunction jsDecorator
 
 hi jsFlowDefinition guifg=SkyBlue
 hi jsFlowFunctionGroup guifg=SkyBlue
@@ -307,4 +313,15 @@ hi jsFlowType guifg=SkyBlue
 hi jsFlowTypeCustom guifg=SkyBlue
 hi jsFlowReturnMaybe guifg=SkyBlue
 hi jsFlowReturnGroup guifg=SkyBlue
-hi link jsFlowImportType Keyword
+hi jsFlowArray guifg=SkyBlue
+hi jsFlowImportType guifg=SkyBlue
+hi jsFlowTypeStatement guifg=SkyBlue
+hi jsFlowObject guifg=SkyBlue
+hi jsFlowGroup guifg=SkyBlue
+hi jsFlowOrOperator guifg=SkyBlue
+hi jsFlowParenAnnotation guifg=SkyBlue
+hi jsFlowMaybe guifg=SkyBlue
+hi jsFlowTypeValue guifg=SkyBlue
+
+hi link ALEErrorSign WarningMsg
+hi link ALEWarningSign Special
