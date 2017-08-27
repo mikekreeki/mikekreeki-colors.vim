@@ -34,13 +34,16 @@ hi LineNr       guifg=#666666
 hi Normal       guifg=#E6E1DC guibg=#000000
 hi Search       guibg=#585858 guifg=NONE
 hi SignColumn   guibg=#000000
-hi VertSplit    guifg=#585858
+" hi VertSplit    guifg=#585858
+hi VertSplit    guifg=#121212
 hi Visual       guibg=#5A647E
 hi Search       guifg=NONE    guibg=steelblue  gui=NONE
 hi Folded       guifg=#F6F3E8 guibg=#444444  gui=NONE
 hi Directory    guifg=#A5C160 gui=NONE
 hi Title        guifg=#E6E1DC
 hi WarningMsg   guifg=#DA4938
+hi StatusLine   guifg=#121212 guibg=#FFFFFF
+hi StatuslineNC guifg=#121212 guibg=#FFFFFF
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Extradite
