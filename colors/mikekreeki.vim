@@ -45,6 +45,10 @@ hi WarningMsg   guifg=#DA4938
 hi StatusLine   guifg=#121212 guibg=#FFFFFF
 hi StatuslineNC guifg=#121212 guibg=#FFFFFF
 
+hi TabLineFill guifg=#121212 guibg=#121212
+hi TabLine     guifg=#FFFFFF guibg=#121212 gui=bold
+hi TabLineSel  guifg=#085E0B guibg=#B0D52B gui=bold
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Extradite
 hi diffAdded   guifg=#00FF00
@@ -210,7 +214,7 @@ hi! link rspecMatchers Keyword
 hi link jsonQuote Statement
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" HTML/XML/JSX
+" HTML/XML/JSX/TSX
 hi xmlTag guifg=#E8BF6A
 hi! link htmlArg     xmlArg
 hi! link htmlEndTag  xmlEndTag
@@ -221,6 +225,10 @@ hi! link xmlArg      xmlTag
 hi! link xmlAttrib   xmlTagName
 hi! link xmlEndTag   xmlTag
 hi! link xmlTagName  xmlTag
+hi! link tsxAttrib xmlTagName
+hi! link tsxEqual xmlTagName
+hi! link tsxCloseString xmlEndTag
+hi! link xmlEqual tsxAttrib
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-gitgutter
@@ -305,6 +313,8 @@ hi link jsSwitchBraces Keyword
 hi link jsRepeatBraces Keyword
 hi link jsBuiltins Normal
 hi link jsDecoratorFunction jsDecorator
+hi link jsObject jsObjectFuncName
+hi link jsFuncCall Normal
 
 hi jsFlowDefinition guifg=SkyBlue
 hi jsFlowFunctionGroup guifg=SkyBlue
@@ -325,6 +335,95 @@ hi jsFlowOrOperator guifg=SkyBlue
 hi jsFlowParenAnnotation guifg=SkyBlue
 hi jsFlowMaybe guifg=SkyBlue
 hi jsFlowTypeValue guifg=SkyBlue
+hi jsFlowExactObject guifg=SkyBlue
 
 hi link ALEErrorSign WarningMsg
 hi link ALEWarningSign Special
+
+" TypeScript
+"""""""""""""""""""
+" hi typescriptType guifg=SkyBlue
+" hi typescriptGlobalObjects guifg=SkyBlue
+" hi link typescriptBraces Keyword
+" hi link typescriptStorageClass Keyword
+" hi link typescriptFuncKeyword Keyword
+" hi link typescriptLogicSymbols Keyword
+" hi link typescriptDotNotation Keyword
+"
+hi link typescriptDOMFormProp Normal
+hi link typescriptArrayMethod Normal
+hi link typescriptBOMHistoryProp Normal
+hi link typescriptDOMFormProp Normal
+hi link typescriptDOMFormProp Normal
+hi link typescriptCall Normal
+hi link typescriptArrowFuncArg Normal
+hi link typescriptMathStaticMethod Normal
+hi link typescriptPaymentShippingOptionProp Normal
+hi link typescriptHeadersMethod Normal
+hi link typescriptStringMethod Normal
+hi link typescriptObjectStaticMethod Normal
+hi link typescriptES6SetMethod Normal
+hi link typescriptDOMEventMethod Normal
+hi link typescriptConsoleMethod Normal
+hi link typescriptPromiseMethod Normal
+hi link typescriptDOMFormMethod Normal
+hi link typescriptDOMNodeProp Normal
+hi link typescriptURLUtilsProp Normal
+hi link typescriptBOMLocationMethod Normal
+hi link typescriptDOMDocProp Normal
+hi link typescriptCacheMethod Normal
+hi link typescriptDOMEventTargetMethod Normal
+hi link typescriptDOMEventProp Normal
+hi link typescriptDOMStorageMethod Normal
+hi link typescriptDOMNodeMethod Normal
+hi link typescriptResponseProp Normal
+hi link typescriptBOMNavigatorProp Normal
+hi link typescriptParamImpl Normal
+hi link typescriptFileReaderProp Normal
+hi link typescriptNumberStaticMethod Normal
+
+hi link typescriptVariable Keyword
+hi link typescriptExport Keyword
+hi link typescriptParens Keyword
+hi link typescriptObjectSpread Keyword
+hi link typescriptOperator Keyword
+hi link typescriptImport Keyword
+hi link typescriptBinaryOp Keyword
+hi link typescriptBraces Keyword
+hi link typescriptArrowFunc Keyword
+hi link typescriptImport Keyword
+hi link typescriptTernaryOp Keyword
+hi link typescriptAssign Keyword
+hi link typescriptIdentifier Keyword
+hi link typescriptUnaryOp Keyword
+hi link typescriptProperty Keyword
+hi link typescriptAliasKeyword Keyword
+" hi link typescriptTypeBrackets Keyword
+hi typescriptTypeBrackets guifg=SkyBlue
+hi link typescriptKeywordOp Keyword
+hi link typescriptClassStatic Keyword
+hi link typescriptServiceWorkerMethod Keyword
+hi link typescriptSemicolons typescriptEndColons
+
+hi typescriptPredefinedType guifg=SkyBlue
+" hi link typescriptPredefinedType Normal
+hi typescriptTypeReference guifg=SkyBlue
+" hi link typescriptTypeReference Normal
+hi typescriptTypeAnnotation guifg=SkyBlue
+hi typescriptAliasDeclaration guifg=SkyBlue
+" hi link typescriptAliasDeclaration Normal
+hi typescriptComputedMember guifg=SkyBlue
+" hi typescriptTypeBracket guifg=SkyBlue
+hi link typescriptTypeBracket Keyword
+hi typescriptUnion guifg=SkyBlue
+" hi link typescriptUnion Keyword
+hi typescriptTypeParameter guifg=SkyBlue
+hi typescriptFuncType guifg=SkyBlue
+hi typescriptFuncTypeArrow guifg=SkyBlue
+hi typescriptCastKeyword guifg=SkyBlue
+hi typescriptEnumKeyword guifg=SkyBlue
+" hi typescriptMember guifg=SkyBlue " Does not work for just types :(
+
+hi link typescriptObjectLabel Function
+hi link typescriptObjectColon Function
+" hi link typescriptTypeAnnotation typescriptObjectColon
