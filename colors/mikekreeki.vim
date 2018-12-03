@@ -381,6 +381,9 @@ hi link typescriptBOMNavigatorProp Normal
 hi link typescriptParamImpl Normal
 hi link typescriptFileReaderProp Normal
 hi link typescriptNumberStaticMethod Normal
+hi link typescriptServiceWorkerMethod Normal
+hi link typescriptNumberStaticProp Normal
+hi link typescriptDOMDocMethod Normal
 
 hi link typescriptVariable Keyword
 hi link typescriptExport Keyword
@@ -423,6 +426,7 @@ hi typescriptFuncTypeArrow guifg=SkyBlue
 hi typescriptCastKeyword guifg=SkyBlue
 hi typescriptEnumKeyword guifg=SkyBlue
 " hi typescriptMember guifg=SkyBlue " Does not work for just types :(
+hi typescriptMemberOptionality guifg=SkyBlue
 
 hi link typescriptObjectLabel Function
 hi link typescriptObjectColon Function
