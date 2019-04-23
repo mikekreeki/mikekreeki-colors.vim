@@ -232,9 +232,13 @@ hi! link xmlEqual tsxAttrib
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-gitgutter
-hi! link DiffAdd GitGutterAdd
-hi! link DiffDelete GitGutterDelete
-hi! link DiffChange GitGutterChange
+" hi! link DiffAdd GitGutterAdd
+" hi! link DiffDelete GitGutterDelete
+" hi! link DiffChange GitGutterChange
+
+hi! GitGutterAdd guifg=#00FF00
+hi! GitGutterDelete guifg=#FF0000
+hi! GitGutterChange guifg=#FFFF00
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-multiple-cursors
@@ -337,8 +341,14 @@ hi jsFlowMaybe guifg=SkyBlue
 hi jsFlowTypeValue guifg=SkyBlue
 hi jsFlowExactObject guifg=SkyBlue
 
+" hi link ALEError WarningMsg
+" hi ALEError guibg=#DA4938
+
 hi link ALEErrorSign WarningMsg
 hi link ALEWarningSign Special
+
+hi link ALEVirtualTextError WarningMsg
+hi link ALEVirtualTextWarning Special
 
 " TypeScript
 """""""""""""""""""
@@ -384,6 +394,9 @@ hi link typescriptNumberStaticMethod Normal
 hi link typescriptServiceWorkerMethod Normal
 hi link typescriptNumberStaticProp Normal
 hi link typescriptDOMDocMethod Normal
+hi link typescriptServiceWorkerMethod Normal
+hi link typescriptJSONStaticMethod Normal
+hi link typescriptFileListMethod Normal
 
 hi link typescriptVariable Keyword
 hi link typescriptExport Keyword
