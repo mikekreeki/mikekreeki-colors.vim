@@ -34,7 +34,6 @@ hi LineNr       guifg=#666666
 hi Normal       guifg=#E6E1DC guibg=#000000
 hi Search       guibg=#585858 guifg=NONE
 hi SignColumn   guibg=#000000
-" hi VertSplit    guifg=#585858
 hi VertSplit    guifg=#121212
 hi Visual       guibg=#5A647E
 hi Search       guifg=NONE    guibg=steelblue  gui=NONE
@@ -208,6 +207,7 @@ hi link javascriptComma javascriptParens
 hi! link rspecGroupMethods Keyword
 hi! link rspecMatchers Keyword
 hi! link rspecMatchers Keyword
+hi! link rubyTestHelper Normal
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-json
@@ -397,6 +397,9 @@ hi link typescriptDOMDocMethod Normal
 hi link typescriptServiceWorkerMethod Normal
 hi link typescriptJSONStaticMethod Normal
 hi link typescriptFileListMethod Normal
+hi link typescriptXHRMethod Normal
+hi link typescriptXHRProp Normal
+hi link typescriptPaymentResponseMethod Normal
 
 hi link typescriptVariable Keyword
 hi link typescriptExport Keyword
