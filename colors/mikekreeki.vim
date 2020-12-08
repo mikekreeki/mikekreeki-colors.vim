@@ -207,6 +207,7 @@ hi link javascriptComma javascriptParens
 hi! link rspecGroupMethods Keyword
 hi! link rspecMatchers Keyword
 hi! link rspecMatchers Keyword
+hi! link rspecBeforeAndAfter Keyword
 hi! link rubyTestHelper Normal
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -400,6 +401,7 @@ hi link typescriptFileListMethod Normal
 hi link typescriptXHRMethod Normal
 hi link typescriptXHRProp Normal
 hi link typescriptPaymentResponseMethod Normal
+hi link typescriptDestructureVariable Normal
 
 hi link typescriptVariable Keyword
 hi link typescriptExport Keyword
@@ -447,3 +449,30 @@ hi typescriptMemberOptionality guifg=SkyBlue
 hi link typescriptObjectLabel Function
 hi link typescriptObjectColon Function
 " hi link typescriptTypeAnnotation typescriptObjectColon
+
+hi link jsxOpenPunct Function
+hi link jsxClosePunct Function
+hi link jsxAttrib Function
+hi link jsxTagName Function
+hi link jsxCloseString Function
+hi link jsxBraces Keyword
+hi link jsxEqual Function
+
+" vim-clap
+"""""""""""""""""""
+
+hi link ClapInput   Visual
+
+hi ClapDisplay guifg=red
+hi ClapPreview guifg=blue
+hi ClapMatches guifg=yellow
+
+" By default ClapQuery will use the bold fg of Normal and the same bg of ClapInput
+
+hi ClapDefaultPreview          ctermbg=237 guibg=#3E4452
+hi ClapDefaultSelected         cterm=bold,underline gui=bold,underline ctermfg=80 guifg=red
+hi ClapDefaultCurrentSelection cterm=bold gui=bold ctermfg=224 guifg=#ffd7d7
+
+hi default link ClapPreview          ClapDefaultPreview
+hi default link ClapSelected         ClapDefaultSelected
+hi default link ClapCurrentSelection ClapDefaultCurrentSelection
