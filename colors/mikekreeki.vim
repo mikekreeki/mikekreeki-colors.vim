@@ -402,6 +402,7 @@ hi link typescriptXHRMethod Normal
 hi link typescriptXHRProp Normal
 hi link typescriptPaymentResponseMethod Normal
 hi link typescriptDestructureVariable Normal
+hi link typescriptFuncCallArg Normal
 
 hi link typescriptVariable Keyword
 hi link typescriptExport Keyword
